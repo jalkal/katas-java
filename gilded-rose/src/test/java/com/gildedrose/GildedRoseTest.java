@@ -2,19 +2,12 @@ package com.gildedrose;
 
 import org.junit.Test;
 
+import static com.gildedrose.GildedRose.*;
 import static org.junit.Assert.assertEquals;
 
 public class GildedRoseTest {
 
     private final String REGULAR = "foo";
-    private final String AGED_BRIE = "Aged Brie";
-    private final String SULFURAS = "Sulfuras, Hand of Ragnaros";
-    private final String BACKSTAGE = "Backstage passes to a TAFKAL80ETC concert";
-
-    private final int MAX_QUALITY = 50;
-    private final int MIN_QUALITY = 0;
-    private final int EXPIRED = 0;
-
     GildedRose testSubject;
 
     @Test
